@@ -1,8 +1,8 @@
 ## Course Contents
 ---
-  - Introduction to HTML
-         - Basic tags like headers, list, images, page links & divs
+ - Introduction to HTML
+   - Basic tags like headers, list, images, page links & divs
  - Intermediate HTML
-        - Tables
-        - Forms 
-        - Form Validations
+   - Tables
+   - Forms 
+   - Form Validations
