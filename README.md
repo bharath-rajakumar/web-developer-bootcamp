@@ -5,8 +5,6 @@ Web Developer Bootcamp is a course from Udemy thaught by Colte Steele. This teac
 
 ---
 ## Course Contents
----
-
 
  - Introduction to HTML
    - Basic tags like headers, list, images, page links & divs
