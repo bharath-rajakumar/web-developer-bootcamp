@@ -1,0 +1,14 @@
+h1 {
+	font-family: 'Slabo 27px', serif;
+	margin-left: 1.66%;
+	border-bottom: 3px solid red;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+img {
+	/*when width is mentioned as % , it is relative to the parent body*/
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}

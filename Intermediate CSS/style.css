@@ -1,0 +1,56 @@
+/*font family*/
+p {
+	font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+}
+
+/*This would make the value of 1em to be 10 pixels*/
+body {
+	font-size: 10px;
+}
+
+/*font size*/ 
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+/*The default value of em is 16 pixels. The following css styling translates to - make the size of the
+font size double the size of its parent element's font size*/
+span {
+	font-size: 3.0em;
+}
+
+p {
+	font-weight: 100;
+}
+
+/*spacing between two lines*/
+p {
+	line-height: 1.5;
+}
+
+/*text alignment*/
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+/*text decoreation is user for striking the text or underline or overline*/
+/*h1 {
+	text-decoration: underline;
+}
+
+p {
+	text-decoration: line-through;
+}*/

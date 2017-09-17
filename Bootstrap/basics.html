@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	 <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity=sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+<div class="container">
+  <!-- Content here -->
+  <h1>Bootstrap Basics</h1>
+
+  <!-- Adding a jumbotron here... YAY !!! -->
+  <div class="jumbotron">
+	  <h1 class="display-3">Hello, world of Internet!!!!</h1>
+	  <p class="lead">This is Bharath Rajakumar here, who is excited to become an awesome web developer before the end of 2017. Lets say cheers to him !!! </p>
+	  <hr class="my-4">
+	  <p>He is gonna rock this web development course</p>
+	  <p class="lead">
+	    <a class="btn btn-primary btn-lg" href="#" role="button">He is always Learning More</a>
+	  </p>
+	</div>
+
+	<button type="button" class="btn btn-primary active">Primary</button>
+	<button type="button" class="btn btn-secondary" disabled>Secondary</button>
+	<button type="button" class="btn btn-success active">Success</button>
+	<button type="button" class="btn btn-danger" disabled>Danger</button>
+	<button type="button" class="btn btn-warning active">Warning</button>
+	<button type="button" class="btn btn-info" disabled>Info</button>
+	<button type="button" class="btn btn-light active">Light</button>
+	<button type="button" class="btn btn-dark" disabled>Dark</button>
+	<hr class="my-4">
+
+	<!-- Adding a form here -->
+	<form>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+	    <small id="emailHelp" class="form-text text-muted">We'll always share your email with everyone ;)</small>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	    <small id="emailHelp" class="form-text text-muted">We'll never share your password with anyone :)</small>
+	  </div>
+	  <div class="form-check">
+	    <label class="form-check-label">
+	      <input type="checkbox" class="form-check-input">
+	      Check me out
+	    </label>
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleFormControlFile1">Upload your file here</label>
+	    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  	</div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+
+	<hr class="my-4">
+
+	<!-- Adding an inline form here... More form goodness !!! -->
+	<form class="form-inline">
+	  <label class="sr-only" for="inlineFormInputName2">Name</label>
+	  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInputName2" placeholder="Barry Venom">
+
+	  <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+	  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+	    <div class="input-group-addon">@</div>
+	    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="User Handle">
+	  </div>
+
+	  <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+	    <label class="form-check-label">
+	      <input class="form-check-input" type="checkbox"> Remember me
+	    </label>
+	  </div>
+
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+
+</body>
+</html>

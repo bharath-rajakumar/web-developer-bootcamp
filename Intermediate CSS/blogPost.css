@@ -1,0 +1,45 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+	max-width: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-color: #bdc3c7;
+	padding: 20px;
+}
+
+.blog-date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+}
+
+.blog-title {
+	color: #2c3e50;
+	text-transform: capitalize;
+}
+
+.highlighted-para {
+	border-width: 0px;
+	border-left-width: 6px;
+	border-style: solid;
+	border-color: #bdc3c7;
+	padding: 10px;
+}
+
+.hr-styling {
+	border : 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+
+
+/*Notes*/
+/*Border color #bdc3c7
+date color #3498db
+h2 color #2c3e50
+font source sans pro*/
