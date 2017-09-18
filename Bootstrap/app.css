@@ -1,0 +1,29 @@
+body {
+	background-image: url('https://images.unsplash.com/photo-1455525928928-837c99714248?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=5cec9eb5550750d11cd2f76c7e48edd5');
+	background-size: cover;
+	background-position: center;
+	font-family: 'Josefin Slab', serif;
+}
+
+#content {
+	padding-top: 20%;
+}
+
+h1, h3 {
+	color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+html {
+	height: 100%;
+}
+
+hr {
+	color: white;
+	width: 400px;
+	height: 2px;
+}
