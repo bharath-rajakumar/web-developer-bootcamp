@@ -8,6 +8,9 @@ var resetButton = document.querySelector(".reset");
 var scoreToWinPicker = document.querySelector(".scorePicker");
 var scoreToWin = document.querySelector(".scoreToWin");
 
+var p1Display = document.querySelector(".p1Display");
+var p2Display = document.querySelector(".p2Display");
+
 
 // Increment Player score when we click the respective buttons
 playerOneButton.addEventListener("click", function() {
@@ -17,13 +20,13 @@ playerOneButton.addEventListener("click", function() {
 		playerOneScore++;
 		
 		//Update the header element
-		document.querySelector(".p1Score").textContent = playerOneScore;
+		p1Display.textContent = playerOneScore;
 
 		console.log("Player One Score : " + playerOneScore);
 		
 		if(playerOneScore == scoreToWin.textContent) {
 			//Change the color of the score to Green indicating victory
-			document.querySelector(".p1Score").style.color = "green";
+			p1Display.style.color = "green";
 		}
 	} else {
 		console.log("One of the players WON !!!");
@@ -37,13 +40,13 @@ playerTwoButton.addEventListener("click", function() {
 		playerTwoScore++;
 
 		//Update the header element
-		document.querySelector(".p2Score").textContent = playerTwoScore;
+		p2Display.textContent = playerTwoScore;
 
 		console.log("Player Two Score : " + playerTwoScore);
 
 		if(playerTwoScore == scoreToWin.textContent) {
 			//Change the color of the score to Green indicating victory
-			document.querySelector(".p2Score").style.color = "green";
+			p2Display.style.color = "green";
 		}
 	} else {
 		console.log("One of the players WON !!!");
@@ -54,26 +57,31 @@ playerTwoButton.addEventListener("click", function() {
 
 //Reset the score to zero
 resetButton.addEventListener("click", function() {
-	playerOneScore = 0;
-	playerTwoScore = 0;
-
-	//Update the header element
-	document.querySelector(".p1Score").textContent = playerOneScore;
-	document.querySelector(".p2Score").textContent = playerTwoScore;
-
-	//Update the color of the scoreboard back to black
-	document.querySelector(".p1Score").style.color = "black";
-	document.querySelector(".p2Score").style.color = "black";
-
-	console.log("Resetting player scores to zero");
-	console.log("Player One Score : " + playerOneScore);
-	console.log("Player Two Score : " + playerTwoScore);
+	resetScore();
 });
 
 //Choosing the score to win using the number picker
 scoreToWinPicker.addEventListener("change", function() {
-	scoreToWin.textContent = scoreToWinPicker.value;
+	scoreToWin.textContent = this.value;
+	resetScore();
 });
+
+function resetScore() {
+	playerOneScore = 0;
+	playerTwoScore = 0;
+
+	//Update the header element
+	p1Display.textContent = playerOneScore;
+	p2Display.textContent = playerTwoScore;
+
+	//Update the color of the scoreboard back to black
+	p1Display.style.color = "black";
+	p2Display.style.color = "black";
+
+	console.log("Resetting player scores to zero");
+	console.log("Player One Score : " + playerOneScore);
+	console.log("Player Two Score : " + playerTwoScore);
+}
 
 
 

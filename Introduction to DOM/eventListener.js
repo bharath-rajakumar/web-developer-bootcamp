@@ -20,5 +20,12 @@ var myList = document.querySelectorAll("li");
 myList.forEach(function(item) {
 	item.addEventListener("click", function() {
 		console.log("You clicked on : " + item.textContent);
-    });
+  });
+});
+
+//Changing the color to pink once you click on the list item
+myList.forEach(function(item) {
+	item.addEventListener("click", function() {
+		this.style.color = "pink";
+  });
 });
